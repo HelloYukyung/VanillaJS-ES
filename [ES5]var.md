@@ -25,7 +25,7 @@ console.log(x);
 
 ```js
 function x() {
-  y = 1; // strict 모드에서는 ReferenceError를 출력합니다.
+  y = 1; // strict 모드에서는 ReferenceError
   var z = 2;
 }
 
