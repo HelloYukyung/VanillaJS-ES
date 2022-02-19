@@ -34,8 +34,8 @@ event가 발생한 가장 안쪽의 요소는 타깃(target)요소라 불리며 
 
 ### event.target과 this 의 차이점
 
-event.target은 실제 이벤트가 시작된 ‘타깃’ 요소이다.
-버블링이 진행되어도 변하지 않는다.
+event.target은 실제 이벤트가 시작된 ‘타깃’ 요소이다.  
+버블링이 진행되어도 변하지 않는다.  
 this는 ‘현재’ 요소로, 현재 실행 중인 핸들러가 할당된 요소를 참조한다.
 
 ```js
@@ -50,7 +50,7 @@ form.onclick = function (event) {
 };
 ```
 
-위 코드를 참조했을 때
-P 클릭시 : target = P this =FORM
-DIV 클릭시 : target = DIV this =FORM
+위 코드를 참조했을 때  
+P 클릭시 : target = P this =FORM  
+DIV 클릭시 : target = DIV this =FORM  
 FORM 클릭시 : target = FORM this =FORM
